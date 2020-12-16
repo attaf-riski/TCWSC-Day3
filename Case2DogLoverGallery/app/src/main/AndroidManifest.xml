@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.case1_amonicairlines">
+    package="com.example.case2_doglovergallery">
 
     <application
         android:allowBackup="true"
@@ -10,10 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ReserveActivity"></activity>
-        <activity android:name=".SearchActivity" />
-        <activity android:name=".AmenitiesActivity" />
-        <activity android:name=".AboutActivity" />
+        <activity android:name=".NeverDetailActivity"></activity>
+        <activity android:name=".NeverActivity" />
+        <activity android:name=".TryActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
